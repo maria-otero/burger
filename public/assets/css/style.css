@@ -17,7 +17,26 @@ li {
     text-align: center;
   }
 
+  em {
+    color: rgb(94, 27, 27);
+    opacity: 0.5;
+  }
 
+  input {
+    border: none;
+    border-radius: .25rem;
+  }
+
+  .change-devour {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .inner-shadow {
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+    padding: .250rem .75rem;
+ }
   .jumbotron {
     padding: 2% 4%;
     margin: 2% 15%;
@@ -40,4 +59,20 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  .delete-burger {
+  border: none;
+  background-color: rgb(250, 182, 54);
   
+}
+
+.btn {
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  padding: .250rem .75rem;
+}
+
+
+
